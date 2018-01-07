@@ -16,7 +16,7 @@ permalink: /Activities/
 		          <div class="date-post">{{ post.date | date: date_format }}</div>
 		          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
 		          <p>
-		             {{ post.content | truncatewords: 10 }}
+		             Read: {{ post.reading | truncatewords: 8 }}
 		          </p>
 		          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
 	        {% endfor %}
