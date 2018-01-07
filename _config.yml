@@ -9,5 +9,7 @@ github_username:  EEOB-Macroevolution
 
 future: true
 
+logo: "/assets/trilo.png"
+
 sass:
     style: compressed
